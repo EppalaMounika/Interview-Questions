@@ -1,0 +1,109 @@
+1.What does immutable mean and what three types of Python core data types are considered immutable?
+An immutable data type is a type of object which cannot be modified after its creation. 
+Numbers, strings, and tuples in Python fall into this category. 
+Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+2.What does sequence mean and which three types of data fall into this category?
+A sequence data type is a collection of objects ordered by a specific position. 
+In Python, Strings, lists, and tuples are the data types based on sequences. 
+The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+3.What is polymorphism and why should you care?
+Polymorphism means that the meaning of an operation (like a+) depends on the objects being operated. 
+This turns out to be a key idea behind good use of Python, not coercing code to specific types makes that code automatically applied to many types.
+
+4.What is the Arithmetic operator’s precedence in Python?
+When more than one arithmetic operator appears in an expression the operations will execute in a specific order. 
+In Python, the operation precedence follows as per the acronym PEMDAS.
+Parenthesis
+Exponent
+Multiplication
+Division
+Addition
+Subtraction
+
+5.  What is pass in Python?
+Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, 
+where there should be a blank left and nothing has to be written there.
+
+
+6.What Does The Continue Do In Python? 
+
+The continue is a jump statement in Python which moves the control to execute the next iteration in a loop leaving all the remaining instructions in the block unexecuted.
+ The continue statement is applicable for both the “while” and “for” loops.
+
+7.When do you choose list over a tuple? 
+When there is an immutable ordered list of elements we choose tuple. Because we cannot add/remove an element from the tuple. 
+On the other hand, we can add elements to a list using append () or extend() or insert(), etc., and delete elements from a list using remove() or pop().
+Simple tuples are immutable, and lists are no.
+
+
+8. What is lambda in Python?
+anonymous function means that a function is without a name. As we already know that def keyword is used to define the normal functions and the lambda keyword is used to create anonymous functions.
+lambda arguments: expression.
+
+
+9.Mention what are the rules for local and global variables in Python?
+
+Local variables: If a variable is assigned a new value anywhere within the function's body, it's assumed to be local.
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+
+10. Mention the use of the split function in Python?
+ The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. 
+It gives a list of all words present in the string.
+
+11. What Are The Principal Differences Between The Lambda And Def?
+ Lambda Vs. Def.
+Def can hold multiple expressions while lambda is a uni-expression function.
+Def generates a function and designates a name to call it later. Lambda forms a function object and returns it.
+Def can have a return statement. Lambda can’t have return statements.
+Lambda supports to get used inside a list and dictionary.
+
+
+12.What Is A Function In Python Programming?
+ 
+ A function is an object which represents a block of code and is a reusable entity. It brings modularity to a program and a higher degree of code reusability.
+Python has given us many built-in functions such as print() and provides the ability to create user-defined functions.
+
+13.What Is The Return Keyword Used For In Python? 
+The purpose of a function is to receive the inputs and return some output.
+The return is a Python statement which we can use in a function for sending a value back to its caller.
+
+
+14.Is It Mandatory For A Python Function To Return A Value? 
+ It is not at all necessary for a function to return any value. However, if needed, we can use None as a return value.
+
+15. What Does The Ord() Function Do In Python?
+The ord(char) in Python takes a string of size one and 
+returns an integer denoting the Unicode code format of the character in case of a code type object, or the value of the byte if the argument is of 8-bit string type.
+
+16.What is *args and **kwargs?
+*args is used when the programmer is not sure about how many arguments are going to be passed to a function, or if the programmer is expecting a list or a tuple as argument to the function.
+**kwargs is used when a dictionary (keyword arguments) is expected as an argument to the function.
+
+17. What is a Counter in Python? 
+The function Counter() from the module ‘collections’. It counts the number of occurrences of the elements of a container.
+
+
+18. What Is A String In Python?
+A string in Python is a sequence of alpha-numeric characters. They are immutable objects. 
+It means that they don’t allow modification once they get assigned a value. 
+Python provides several methods, such as join(), replace(), or split() to alter strings. But none of these change the original object.
+
+
+19.What Does The “Self” Keyword Do?
+The self is a Python keyword which represents a variable that holds the instance of an object.
+In almost, all the object-oriented languages, it is passed to the methods as a hidden parameter.
+
+
+20.What is Polymorphism in Python?
+Python supports object-oriented programming and provides almost all OOP features to use in programs.
+A Python class is a blueprint for creating the objects. It defines member variables and gets their behavior associated with them.
+We can make it by using the keyword “class.” An object gets created from the constructor. This object represents the instance of the class.
+In Python, we generate classes and instances in the following way.
+
+
+21.What is pickling and unpickling?
+Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling. 
+While the process of retrieving original Python objects from the stored string representation is called unpickling.
